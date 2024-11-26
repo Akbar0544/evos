@@ -1,0 +1,562 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+body{
+   background-color: whitesmoke;
+}
+.tepa {
+    display: flex;
+    width: 1900px;
+    height: 150px;
+    border: 1px solid #000000;
+     
+}
+.tepac {
+    display: flex;
+    position: relative;
+    margin-left: 220px;
+}
+.tepac img {
+  width: 170px;
+  height: 150px; 
+  margin-bottom: 30px; 
+}
+.ses   {
+    width: 75px;
+    height: 42px;
+    font-size: 17px;
+}
+.ses a {
+    text-decoration: none;
+}
+.sas {
+   width: 85px;
+   height: 42px;
+   font-size: 17px;   
+}
+.sas a {
+    text-decoration: none;
+}
+.sus {
+    width:  56px;
+    height: 42px;
+    font-size: 17px;
+}
+.sus a {
+    text-decoration: none;
+}
+.sis {
+    margin-top: 60px;
+    display: flex;
+}
+.btn{
+   display: flex; 
+   position: relative;
+}
+ion-icon {
+    font-size: 25px;
+ }
+ .btn button{
+    width: 180px;
+    height: 48px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(237, 236, 236);
+    border: 1px solid rgb(237, 236, 236);
+ }
+ .btn ion-icon {
+    position: absolute;
+    right: 150px;
+    top: 10px;
+    color: black;
+ }
+ .btn1 button{
+    width: 129px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: rgb(237, 236, 236);
+    border: 1px solid rgb(237, 236, 236);
+    
+ }
+ .btn1 ion-icon{
+    position: absolute;
+    right: 250px;
+    top: 60px;
+ 
+ }
+ .slt select{
+    width: 82px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: rgb(237, 236, 236);
+    border: 1px solid rgb(237, 236, 236);
+ }
+ .pro button {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: rgb(237, 236, 236);
+    border: 1px solid rgb(237, 236, 236);
+ }
+ .hamm {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+ }
+ .ras {
+    
+    background-image: url(banner_texture.ac80bda4.png);
+    width: 100%;
+    height: 20px;
+    background-size: 22%;
+    background-repeat: repeat;
+ }
+ .abr {
+    width: 1900px;
+    height: 730px;
+    background-color: green;
+ }
+ .kat {
+   width: 1217px;
+   height: 500px;
+ 
+   display: flex;
+   margin-left: 250px;
+   margin-top: 100px;
+ }
+ .chap{
+   width: 608px;
+   height: 500px;
+   
+ }
+ .ong {
+   width: 608px;
+   height: 500px;
+  
+ }
+ .mat1 p{
+   font-size: 50px;
+   color: white;
+ }
+ .rasm1{
+   display: flex;
+   gap: 20px;
+   margin-top: 15px;
+ }
+ ion-icon {
+   font-size: 35px;
+ }
+ .rasm2 img {
+   width: 35px;
+   height: 35px;
+ }
+ .mat2 p{
+   font-size: 22px;
+    margin-top: 10px;
+    color: white;
+ }
+ .silk a {
+   font-size: 22px;
+   color: black;
+   text-decoration: none;
+   color: white;
+ }
+ .silk {
+   margin-top: 10px;
+ }
+.wrap {
+   flex-wrap: wrap;
+   margin-top: 15px;
+} 
+.but1 {
+   width: 200px;
+   height: 50px;
+   background-color: greenyellow;
+   border: 1px solid greenyellow;
+   border-radius: 10px;
+
+}
+.but2{
+
+   width: 200px;
+   height: 50px;
+   background-color: greenyellow;
+   border: 1px solid greenyellow;
+   border-radius: 10px;
+   margin-left: 10px;
+}
+.but3 {
+   width: 200px;
+   height: 50px;
+   background-color: greenyellow;
+   border: 1px solid greenyellow;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+.but4{
+   width: 200px;
+   height: 50px;
+   background-color: rgb(4, 160, 4);
+   border: 1px solid rgb(4, 160, 4);
+   border-radius: 10px;
+   margin-left: 10px;
+}
+.uy {
+   display: flex;
+   position: relative;
+   margin-top: 60px;
+}
+.opa1{
+   position: relative;
+   z-index: 1;
+}
+.opa2 {
+   position: absolute;
+   left: 45px;
+   z-index: 2;
+}
+.opa3{
+   position: absolute;
+   z-index: 3;
+   left: 90px;
+}
+.opa3 p{
+   width: 250px;
+   height: 60px;
+   position: absolute;
+   left: 60px;
+   top: 5px;
+}
+.ong img {
+   width: 600px;
+   height: 520px;
+   border-radius: 50px;
+   margin-top: -10px;
+   margin-left: 20px;
+}
+.but1:hover{
+   box-shadow: 0px 0px 2px 2px white;
+}
+.but2:hover{
+   box-shadow: 0px 0px 2px 2px white;
+}
+.but3:hover{
+   box-shadow: 0px 0px 2px 2px white;
+}
+.but4:hover {
+   background-color: greenyellow;
+   box-shadow: 0px 0px 2px 2px white;
+}
+.wer{
+   display: flex;
+   width: 1050px;
+   height: 66px;
+   border: 1px solid rgb(216, 214, 214);
+   border-radius: 10px;
+   margin-left: 250px;
+   margin-top: 70px;
+   gap: 20px;
+   text-align: center;
+   background-color: white;
+}
+.wer {
+  position: relative;
+  top: -7106px;
+}
+.wer p {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+.wer1:hover{
+   width: 70px;
+   height: 30px;
+   background-color: whitesmoke;
+   border: 1px solid whitesmoke;
+}
+.kat3 {
+   font-size: 50px;
+   margin-left: 650px;
+}
+.kat3 p{
+    margin-top: 50px;
+    position: absolute;
+    top: 0px;
+}
+.orqa {
+   width: 1900px;
+   height: 7000px;
+   
+   margin-top: -50px;
+   position: relative;
+}
+.kat4 {
+   display: flex;
+   gap: 30px;
+   margin-top: 50px;
+   margin-left: 100px;
+}
+.ichi1 {
+   width: 280px;
+   height: 400px;
+   background-color: white;
+   border-radius: 5px;
+   margin-top: 200px;
+}
+.ichi1 img{
+   width: 280px;
+   height: 182px;
+}
+.ichi1 h2{
+   margin-top: 15px;
+   margin-left: 10px;
+}
+.ichi1 p{
+   margin-top: 15px;
+   margin-left: 10px;
+}
+.ichi1 h4 {
+   margin-top: 20px;
+   font-size: 20px;
+   margin-left: 10px;
+}
+.ichi1 button {
+   width: 260px;
+   height: 50px;
+   margin-left: 10px;
+   margin-top: 20px;
+   font-size: 20px;
+   background-color: rgb(209, 209, 209);
+   border: 1px solid rgb(209, 209, 209);
+   border-radius: 10px;
+} 
+.btn5:hover{
+   background-color: yellow;
+   border: 1px solid yellow;
+   border-radius: 10px;
+}
+.ichi2 {
+   width: 280px;
+   height: 460px;
+   background-color: white;
+   border-radius: 5px;
+   margin-top: 170px;
+}
+.ichi2 img{
+   width: 280px;
+   height: 242px;
+}
+.ichi2 h2{
+   margin-top: 15px;
+   margin-left: 10px;
+}
+.ichi2 p{
+   margin-top: 15px;
+   margin-left: 10px;
+}
+.ichi2 h4 {
+   margin-top: 20px;
+   font-size: 20px;
+   margin-left: 10px;
+}
+.ichi2 button {
+   width: 260px;
+   height: 50px;
+   margin-left: 10px;
+   margin-top: 20px;
+   font-size: 20px;
+   background-color: rgb(209, 209, 209);
+   border: 1px solid rgb(209, 209, 209);
+   border-radius: 10px;
+}
+.btu1 button{
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: white;
+   border: 1px solid white;
+} 
+.btu1 {
+   margin-top: 30px;
+   margin-left: 800px;
+}
+.mat4 {
+   margin-top: 20px;
+   margin-left: 250px;
+}
+.mat4 h1{
+   font-size: 50px;
+}
+.bol {
+   margin-left: 250px;
+   display: flex;
+   flex-wrap: wrap ;
+   gap: 40px;
+}
+.bol1 {
+   width: 300px;
+   height: 410px;
+   background-color: white;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+.bol1 img{
+   width: 300px;
+   height: 182px;
+}
+.bol1 h2{
+   margin-top: 15px;
+   margin-left: 10px;
+}
+.bol1 p{
+   margin-top: 15px;
+   margin-left: 10px;
+}
+.bol1 h4 {
+   margin-top: 20px;
+   font-size: 20px;
+   margin-left: 10px;
+}
+.bol1 button {
+   width: 280px;
+   height: 50px;
+   margin-left: 10px;
+   margin-top: 20px;
+   font-size: 20px;
+   background-color: rgb(209, 209, 209);
+   border: 1px solid rgb(209, 209, 209);
+   border-radius: 10px;
+} 
+.mat5{
+   font-size: 30px;
+   margin-top: 90px;
+   margin-left: 700px;
+}  
+.kvad {
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 250px;
+   margin-top: 40px;
+}
+.kva {
+  width: 437px;
+  height: 425px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  font-size: 25px;
+}
+.kva p {
+   margin: 15px;
+}
+.kva img {
+   /* margin-left: 170px; */
+}
+.kvab {
+   width: 437px;
+   height: 275px;
+   text-align: center;
+  border-right: 1px solid black;
+   font-size: 25px;
+ }
+ .sia{
+   display: flex;
+   margin-left: 270px;
+   gap: 120px;
+   margin-top: 50px;
+ }
+ 
+ .orta1 h1{
+   font-size: 70px;
+ }
+ .orta1 h2{
+   font-size: 50px;
+ }
+ .orta1 p{
+   margin-top: 20px;
+   font-size: 20px;
+ }
+ .orta2{
+   width: 750px;
+   display: flex;
+   margin-top: 20px;
+   
+ }
+ .orta2 h1 {
+   font-size: 25px;
+   margin-top: 20px;
+   margin-left: 10px;
+ }
+ .las1 img {
+   width: 200px;
+   height: 50px;
+ }
+ .las2 img{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    }
+ .ong1 {
+   margin-top: 200px;
+   margin-left: -50px;
+ }
+ .chap1 img:hover{
+   animation-name: tele;
+   animation-delay: 250ms;
+   animation-duration: 200ms;
+   animation-iteration-count: 3;
+ }
+ @keyframes tele {
+   0%{}
+   30%{transform: rotate(10deg);}
+   100%{transform: rotate(-5deg);}
+ }
+ .pas {
+   width: 1900px;
+   height: 260px;
+   background-color: #ebedf8;
+   margin-top: 100px;
+ }
+ .ite a {
+   text-decoration: none;
+   color: black;
+   font-size: 20px; 
+ }
+ .ite {
+   display: flex;
+   gap: 25px;
+   margin-left: 350px;
+   margin-top: 100px;
+   text-align: center;
+   align-items: center;
+ }
+ .hew{
+   margin-left: 200px;
+   display: flex;
+   gap: 20px;
+ }
+ .chek img {
+   width: 150px;
+   height: 50px;
+ }
+ .mat7{
+   margin-top: 50px;
+   margin-left: 350px;
+ }
+
+
+ 
+
+
+
+ 
+ 
+
+ 
+
+
+
+
